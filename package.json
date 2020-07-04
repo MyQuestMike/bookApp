@@ -4,12 +4,13 @@
   "description": "A vanilla javascript app for book registry",
   "main": "index.js",
   "dependencies": {
-    "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "install-peerdeps": "^2.0.3",
     "npx": "^10.2.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.4.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
